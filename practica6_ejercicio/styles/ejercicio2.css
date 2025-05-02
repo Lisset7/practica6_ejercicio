@@ -1,0 +1,129 @@
+/* Tipografía general */
+body, h1, h2, h3, footer, .actions {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  /* Encabezado h1 */
+  h1 {
+    font-size: 2em;
+    color: #003366;
+    margin-bottom: 15px;
+  }
+  
+  /* Encabezado h2 */
+  h2 {
+    font-size: 1.5em;
+    color: #005599;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Encabezado h3 */
+  h3 {
+    font-size: 1.2em;
+    color: #0077cc;
+    margin-top: 15px;
+    margin-bottom: 8px;
+  }
+  
+  /* Estilo de párrafos */
+  p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    letter-spacing: 0.3px;
+  }
+  
+  /* Estilo de enlaces */
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #005599;
+  }
+  
+  /* Header */
+  header {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+  }
+  
+  /* Navegación */
+  nav {
+    background-color: #003366;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    padding: 8px 12px;
+    background-color: #005599;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #0077cc;
+  }
+  
+  /* Article */
+  article {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section */
+  section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f7f7f7;
+    border-left: 4px solid #0077cc;
+  }
+  
+  /* Clase .act */
+  .act {
+    background-color: #e6f2ff;
+    padding: 10px;
+    border: 1px dashed #0077cc;
+    margin: 10px 0;
+  }
+  
+  /* Clases .Edit y .Flag */
+  .Edit {
+    color: #006600;
+    font-weight: bold;
+  }
+  
+  .Flag {
+    color: #cc0000;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+  }
